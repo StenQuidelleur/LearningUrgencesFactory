@@ -203,4 +203,8 @@ textarea.form-control {
     .overlay {
         display: none;
     }
+
+    .logoNav3 {
+        height: 75px;
+    }
 }
