@@ -199,4 +199,8 @@ textarea.form-control {
     .cube {
         order: -4;
     }
+
+    .overlay {
+        display: none;
+    }
 }
