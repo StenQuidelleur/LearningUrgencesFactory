@@ -7,10 +7,12 @@
                 {{ form_start(form) }}
                     {{ form_row(form) }}
                 <div class="col text-center">
-                    <button class="btn btn-info mb-5">{{ button_label|default('Continuer') }}</button>
+                    <button class="btn btn-info mb-5 js-submit">{{ button_label|default('Continuer') }}</button>
                 </div>
                 {{ form_end(form) }}
             </div>
         </div>
     </div>
 {% endblock %}
+
+
