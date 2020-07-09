@@ -35,7 +35,6 @@ class EvaluationController extends AbstractController
      */
     public function index(Request $request, EvalQuestionRepository $questionsRepository, EvalYnRepository $evalYnRepository, EvalScoreRepository $evalScoreRepository)
     {
-
         $em = $this->getDoctrine()->getManager();
         $evaluation = new Evaluation();
         $evaluation->setCreatedAt(new \DateTime('now'));

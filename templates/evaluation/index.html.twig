@@ -83,17 +83,11 @@
     <script>
         const linkToGenerateAttestation = document.querySelector('a.js-link-to-generate-attestation').href;
         const linkToSendMail = document.querySelector('a.js-link-to-send-mail').href;
-        console.log(linkToGenerateAttestation)
-        console.log(linkToSendMail)
 
         axios.get(linkToGenerateAttestation)
         .then(response => console.log(response.data))
 
         axios.get(linkToSendMail)
         .then(response => console.log(response.data))
-        
-  
-           
-        
     </script>
 {% endblock %}

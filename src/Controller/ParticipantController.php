@@ -42,7 +42,7 @@ class ParticipantController extends AbstractController
      * @return Response
      * @throws TransportExceptionInterface
      */
-    public function participant(Request $request, MailerInterface $mailer):Response
+    public function participant(Request $request):Response
     {
         $participant = new Participant();
         $form = $this->createForm(ParticipantType::class, $participant);
