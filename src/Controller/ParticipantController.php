@@ -112,6 +112,7 @@ class ParticipantController extends AbstractController
         $email = (new TemplatedEmail())
             ->from('sten.test4php@gmail.com')
             ->to('sten.test4php@gmail.com')
+            ->cc('gauthier.ranner@schillerfrance.fr')
             ->subject('Votre attestation de formation LUF/SCHILLER')
             ->htmlTemplate('Home/email/attestation-email.html.twig')
             ->context(['contact' => $participant])
