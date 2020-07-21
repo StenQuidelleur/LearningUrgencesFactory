@@ -62,7 +62,7 @@ class HomeController extends AbstractController
             $email = (new TemplatedEmail())
                 ->from('sten.test4php@gmail.com')
                 ->to('sten.test4php@gmail.com')
-                ->cc('gauthier.ranner@schillerfrance.fr')
+                ->cc('maformation.life@gmail.com')
                 ->subject($contact->getObject())
                 ->htmlTemplate('Home/email/notification.html.twig')
                 ->context(['contact' => $contact]);

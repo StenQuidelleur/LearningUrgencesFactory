@@ -154,7 +154,7 @@ class AdminController extends AbstractController
         $email = (new TemplatedEmail())
             ->from('sten.test4php@gmail.com')
             ->to('sten.test4php@gmail.com')
-            ->cc('gauthier.ranner@schillerfrance.fr')
+            ->cc('maformation.life@gmail.com')
             ->subject('Avis et QCM de formation LUF/SCHILLER')
             ->htmlTemplate('Home/email/avis-qcm.html.twig')
             ->context(['contact' => $session])
